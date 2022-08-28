@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}
+		,{
+		    "path" : "pages/feeds/feeds",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "动态中心",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		}
+	    ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "webview/webview",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "subpages",
+			"pages": [
+				{
+					"path": "feedinfo",
+					"style": {
+						"navigationBarTitleText": "动态详情",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black",
+						"backgroundColor": "#fff"
+						
+					}
+				},
+				{
+					"path": "newsinfo",
+					"style": {
+						"navigationStyle": "custom"
+						
+					}
+				}
+			    ,{
+                    "path" : "share",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#000",
+		"selectedColor": "#0050FF",
+		"list": [
+			{
+				// "iconPath": "/static/xxxx",
+				// "selectedIconPath": "=",
+				"text": "首页",
+				"pagePath": "pages/index/index"
+			},
+			{
+				// "iconPath": "/static/xxxx",
+				// "selectedIconPath": "=",
+				"text": "动态",
+				"pagePath": "pages/feeds/feeds"
+			},
+			{
+				// "iconPath": "/static/xxxx",
+				// "selectedIconPath": "=",
+				"text": "我的",
+				"pagePath": "pages/me/me"
+			}
+		]
+	},
+	"easycom":{
+		"^u-(.*)":"uview-ui/components/u-$1/u-$1.vue"
+	},
+	"uniIdRouter": {}
+	
+}

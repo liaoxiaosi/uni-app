@@ -1,0 +1,12 @@
+
+.detailbox.data-v-7538d059{
+	padding: 20rpx;
+}
+.title.data-v-7538d059{
+	padding: 40rpx 0;
+	font-size: 32rpx;
+}
+.other.data-v-7538d059{
+	font-size: 24rpx;
+}
+

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feeds/feeds",
+    "pages/me/me",
+    "webview/webview"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "feedinfo",
+        "newsinfo",
+        "share"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0050FF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "动态",
+        "pagePath": "pages/feeds/feeds"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  },
+  "usingComponents": {
+    "login": "/components/login",
+    "goto-share": "/components/gotoShare"
+  }
+}

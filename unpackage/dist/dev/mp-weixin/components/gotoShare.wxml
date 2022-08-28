@@ -1,0 +1,1 @@
+<block wx:if="{{loginState}}"><view class="goto-share data-v-2d726b91"><view data-event-opts="{{[['tap',[['gotoShare',['$event']]]]]}}" class="share-img data-v-2d726b91" catchtap="__e">分享</view></view></block>

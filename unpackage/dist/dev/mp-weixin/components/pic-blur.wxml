@@ -1,0 +1,1 @@
+<view class="data-v-7b6e8605"><view class="container data-v-7b6e8605" style="{{(css.size)}}"><block wx:if="{{css.img}}"><image class="{{['data-v-7b6e8605',css.blur]}}" src="{{css.img}}" mode="aspectFill"></image></block><block wx:else><view class="{{['data-v-7b6e8605',css.blur]}}"></view></block></view></view>
